@@ -1,0 +1,1 @@
+package com.pokerface.spingboot.repositories;import Entity.PersonEntity;import org.springframework.data.jpa.repository.JpaRepository;import org.springframework.stereotype.Repository;@Repositorypublic interface PersonEntityRepository extends JpaRepository<PersonEntity, Long> {}

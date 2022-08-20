@@ -1,0 +1,1 @@
+package Entity;import javax.persistence.Entity;import javax.persistence.Table;@Entity(name = "New_Entity")@Table()public class NewEntity extends PersonEntity {    private static final long serialVersionUID = -4157461746068081346L;}
